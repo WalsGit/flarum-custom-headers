@@ -33,7 +33,7 @@
       "title": "Custom Headers",
       "category": "feature",
       "icon": {
-        "name": "fas fa-file-code",
+        "name": "fas fa-window-maximize",
         "backgroundColor": "#008e97",
         "color": "#fff"
       }

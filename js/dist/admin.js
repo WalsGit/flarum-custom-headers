@@ -81,10 +81,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flarum_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flarum_app__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Settings */ "./src/admin/components/Settings.js");
 /*
- * This file is part of justoverclock/custom-header.
+ * This file is part of walsgit/custom-headers.
  *
- * Copyright (c) 2021 Marco Colia.
- * https://flarum.it
+ * Copyright (c) 2021 Marco Colia. https://flarum.it
+ * Copyright (c) 2025 Wa!id.
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
@@ -92,79 +92,79 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-flarum_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('justoverclock/custom-header', function () {
-  flarum_app__WEBPACK_IMPORTED_MODULE_0___default().extensionData["for"]('justoverclock-custom-header').registerPage(_components_Settings__WEBPACK_IMPORTED_MODULE_1__["default"]).registerSetting({
-    setting: 'justoverclock-custom-header.headerBackgroundImage',
-    name: 'justoverclock-custom-header.headerBackgroundImage',
+flarum_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('walsgit/custom-headers', function () {
+  flarum_app__WEBPACK_IMPORTED_MODULE_0___default().extensionData["for"]('walsgit-custom-headers').registerPage(_components_Settings__WEBPACK_IMPORTED_MODULE_1__["default"]).registerSetting({
+    setting: 'walsgit-custom-headers.headerBackgroundImage',
+    name: 'walsgit-custom-headers.headerBackgroundImage',
     type: 'url',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.headerBackgroundImage'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.headerBackgroundImage-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.headerBackgroundImage'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.headerBackgroundImage-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.headerTitle',
+    setting: 'walsgit-custom-headers.headerTitle',
     name: 'headerTitle',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.headerTitle'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.headerTitle-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.headerTitle'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.headerTitle-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.headerTagline',
+    setting: 'walsgit-custom-headers.headerTagline',
     name: 'headerTagline',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.headerTagline'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.headerTagline-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.headerTagline'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.headerTagline-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.twitterIcon',
+    setting: 'walsgit-custom-headers.twitterIcon',
     name: 'twitterIcon',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.twitterIcon'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.twitterIcon-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.twitterIcon'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.twitterIcon-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.facebookIcon',
+    setting: 'walsgit-custom-headers.facebookIcon',
     name: 'facebookIcon',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.facebookIcon'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.facebookIcon-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.facebookIcon'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.facebookIcon-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.youtubeIcon',
+    setting: 'walsgit-custom-headers.youtubeIcon',
     name: 'youtubeIcon',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.youtubeIcon'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.youtubeIcon-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.youtubeIcon'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.youtubeIcon-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.githubIcon',
+    setting: 'walsgit-custom-headers.githubIcon',
     name: 'githubIcon',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.githubIcon'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.githubIcon-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.githubIcon'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.githubIcon-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.buttonText',
+    setting: 'walsgit-custom-headers.buttonText',
     name: 'buttonText',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.button-text'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.button-text-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.button-text'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.button-text-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.LinkButtonOne',
+    setting: 'walsgit-custom-headers.LinkButtonOne',
     name: 'LinkButtonOne',
     type: 'URL',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.link-button-one'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.link-button-one-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.link-button-one'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.link-button-one-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.button2Text',
+    setting: 'walsgit-custom-headers.button2Text',
     name: 'button2Text',
     type: 'text',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.button2-text'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.button2-text-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.button2-text'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.button2-text-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.LinkButtonTwo',
+    setting: 'walsgit-custom-headers.LinkButtonTwo',
     name: 'LinkButtonTwo',
     type: 'URL',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.link-button-two'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.link-button-two-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.link-button-two'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.link-button-two-help')
   }).registerSetting({
-    setting: 'justoverclock-custom-header.showOnRoutes',
+    setting: 'walsgit-custom-headers.showOnRoutes',
     name: 'showOnRoutes',
     type: 'test',
-    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.show-on-routes'),
-    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-header.admin.show-on-routes-help')
+    label: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.show-on-routes'),
+    help: flarum_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('custom-headers.admin.show-on-routes-help')
   });
 });
 
