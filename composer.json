@@ -1,0 +1,46 @@
+{
+  "name": "walsgit/custom-headers",
+  "description": "Add Custom Headers to Flarum",
+  "keywords": ["flarum", "extension", "header"],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0.0",
+    "flarum/tags": "^1.0"
+  },
+  "require-dev": {
+    "flarum/testing": "^1.0.0"
+  },
+  "authors": [
+    {
+      "name": "Wa!id",
+      "homepage": "https://discuss.flarum.org/u/Walid"
+    }
+  ],
+  "funding": [
+        {
+            "type": "website",
+            "url": "https://walsgit.github.io/Donations/"
+        }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Justoverclock\\CustomHeader\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Custom Headers",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-file-code",
+        "backgroundColor": "#008e97",
+        "color": "#fff"
+      }
+    }
+  },
+  "support": {
+      "issues": "https://github.com/WalsGit/flarum-custom-headers/issues",
+      "forum": "https://discuss.flarum.org/"
+  }
+}
